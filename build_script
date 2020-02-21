@@ -1,0 +1,9 @@
+#! /bin/bash
+
+
+gcc hw2.c -o hw2 
+
+cat input.txt | ./hw2
+
+rm hw2
+
